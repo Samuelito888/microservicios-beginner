@@ -1,0 +1,19 @@
+spring:
+    application:
+        name: vehiculo-service
+    cloud:
+        config:
+            enabled: true
+            uri: http://localhost:8082
+    datasource:
+        url: jdbc:oracle:thin:@localhost:1521:XE
+        username: MICROSERVICEBD
+        password: microservicebd
+        driver-class-name: oracle.jdbc.OracleDriver
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                format_sql: true
