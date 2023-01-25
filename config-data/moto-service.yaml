@@ -8,3 +8,16 @@ eureka:
       default-zone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:XE
+    username: MICROSERVICEBD
+    password: microservicebd
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
