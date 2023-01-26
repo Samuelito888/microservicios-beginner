@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.sh.app.eurekaservice.EurekaServiceApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.122 s - in com.sh.app.eurekaservice.EurekaServiceApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.269 s - in com.sh.app.eurekaservice.EurekaServiceApplicationTests
