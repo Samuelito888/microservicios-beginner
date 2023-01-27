@@ -1,8 +1,6 @@
 server:
   port: 8001
-spring:
-  application:
-    name: usuario-service
+spring:  
   datasource:
     url: jdbc:oracle:thin:@localhost:1521:XE
     username: MICROSERVICEBD
