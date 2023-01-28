@@ -54,13 +54,13 @@ public class UsuarioServiceImpl implements UsuarioService{
     //REST TEMPLATE
     @Override
     public List<Vehiculo> obtenerVehiculosPorUsuarioId(Long id){
-        List<Vehiculo> vehiculos = restTemplate.getForObject("http://localhost:8002/api/vehiculo/usuario/" + id, List.class);
+        List<Vehiculo> vehiculos = restTemplate.getForObject("http://localhost:8083/api/vehiculo/usuario/" + id, List.class);
         return vehiculos;
     }
     
     @Override
     public List<Moto> obtenerMotosPorUsuarioId(Long id) {
-        List<Moto> motos = restTemplate.getForObject("http://localhost:8003/api/moto/usuario/" + id, List.class);
+        List<Moto> motos = restTemplate.getForObject("http://localhost:8084/api/moto/usuario/" + id, List.class);
         return motos;
     }
     //FEIGN CLIENT
