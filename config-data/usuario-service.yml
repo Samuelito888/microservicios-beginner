@@ -15,6 +15,7 @@ spring:
         properties:
              hibernate:
                 format_sql: true
+        zipkin: http://localhost:9411
 eureka:
     client:
         service-url:
